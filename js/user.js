@@ -2,7 +2,7 @@ function createUserInfo(data) {
     const userInfoContainer = document.getElementById("user-info-container");
   
     const userName = document.createElement("h1");
-    userName.textContent = `User: ${data.name}`;
+    userName.textContent = `${data.name}`;
   
     const userEmail = document.createElement("div");
     userEmail.classList.add("info-item");
